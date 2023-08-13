@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherData", "WeatherData\WeatherData.csproj", "{06CF8898-AD63-4378-B711-90E86A083A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherDataTest", "WeatherDataTest\WeatherDataTest.csproj", "{BB92247E-ECA8-4A9B-A7F2-E65E10F6EECF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06CF8898-AD63-4378-B711-90E86A083A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CF8898-AD63-4378-B711-90E86A083A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CF8898-AD63-4378-B711-90E86A083A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CF8898-AD63-4378-B711-90E86A083A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB92247E-ECA8-4A9B-A7F2-E65E10F6EECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB92247E-ECA8-4A9B-A7F2-E65E10F6EECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB92247E-ECA8-4A9B-A7F2-E65E10F6EECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB92247E-ECA8-4A9B-A7F2-E65E10F6EECF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DE25CE7-B7C7-4A36-968C-2783CC4983A0}
+	EndGlobalSection
+EndGlobal
