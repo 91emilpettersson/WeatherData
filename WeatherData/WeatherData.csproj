@@ -13,4 +13,16 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Service\" />
+    <None Remove="Service\WeatherService\" />
+    <None Remove="Service\WeatherClient\" />
+    <None Remove="Service\LocationClient\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Service\" />
+    <Folder Include="Service\WeatherService\" />
+    <Folder Include="Service\WeatherClient\" />
+    <Folder Include="Service\LocationClient\" />
+  </ItemGroup>
 </Project>
